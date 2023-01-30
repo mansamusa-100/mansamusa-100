@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Design.css">
+</head>
+<body>
+    <h1>MANSA CALCULATOR</h1>
+     <div id="calculator">
+        <form action="">
+            <input type="text" id="display" ><br>
+
+            <input type="button" value="C" id="keys" onclick="addtoscreen('C')">
+            <input type="button" value="<--" id="keys" onclick="backspace()">
+            <input type="button" value="X^3" id="keys" onclick="power(3)">
+            <input type="button" value="+" id="keys" onclick="addtoscreen('+')"><br>
+
+            <input type="button" value="9" id="keys" onclick="addtoscreen('9')">
+            <input type="button" value="8" id="keys" onclick="addtoscreen('8')">
+            <input type="button" value="7" id="keys" onclick="addtoscreen('7')">
+            <input type="button" value="-" id="keys" onclick="addtoscreen('-')"><br>
+
+            <input type="button" value="6" id="keys" onclick="addtoscreen('6')">
+            <input type="button" value="5" id="keys" onclick="addtoscreen('5')">
+            <input type="button" value="4" id="keys" onclick="addtoscreen('4')">
+            <input type="button" value="*" id="keys" onclick="addtoscreen('*')"><br>
+
+
+            <input type="button" value="3" id="keys" onclick="addtoscreen('3')">
+            <input type="button" value="2" id="keys" onclick="addtoscreen('2')">
+            <input type="button" value="1" id="keys" onclick="addtoscreen('1')">
+            <input type="button" value="/" id="keys" onclick="addtoscreen('/')"><br>
+
+
+            <input type="button" value="0" id="keys" onclick="addtoscreen('0')">
+            <input type="button" value="." id="keys" onclick="addtoscreen('.')">
+            <input type="button" value="=" id="equal" onclick="answer()"><br>
+
+        </form>
+
+
+     </div>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
